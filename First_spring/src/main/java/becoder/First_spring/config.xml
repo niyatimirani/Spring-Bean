@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id = "ram" class="becoder.First_spring.Ram"> </bean>
+    <bean name = "st1" class = "becoder.First_spring.Student">
+    
+      <property name="id"><value>101</value></property>  
+       <property name="name"><value>Becoder</value></property>  
+        <property name="address"><value>Inia</value></property>    
+    </bean>
+    
+    
+
+</beans>
